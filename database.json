@@ -1,0 +1,200 @@
+{
+    "flowers": [
+        {
+            "color": "Pink",
+            "species": "Azaleas",
+            "id": 1
+        },
+        {
+            "color": "White",
+            "species": "Daisies",
+            "id": 2
+        },
+        {
+            "color": "Purple",
+            "species": "Lavender",
+            "id": 3
+        },
+        {
+            "color": "Yellow",
+            "species": "Sunflowers",
+            "id": 4
+        },
+        {
+            "color": "Red",
+            "species": "Roses",
+            "id": 5
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Giardino Floreale"
+        },
+        {
+            "id": 2,
+            "name": "Blumengarten"
+        },
+        {
+            "id": 3,
+            "name": "Jardin de Fleurs"
+        },
+        {
+            "id": 4,
+            "name": "Gairdin Blath"
+        },
+        {
+            "id": 5,
+            "name": "Lilleaed"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1,
+            "price": 0
+        },
+        {
+            "id": 2,
+            "flowerId": 4,
+            "nurseryId": 1,
+            "price": 0
+        },
+        {
+            "id": 3,
+            "flowerId": 2,
+            "nurseryId": 2,
+            "price": 0
+        },
+        {
+            "id": 4,
+            "flowerId": 5,
+            "nurseryId": 2,
+            "price": 0
+        },
+        {
+            "id": 5,
+            "flowerId": 3,
+            "nurseryId": 3,
+            "price": 0
+        },
+        {
+            "id": 6,
+            "flowerId": 4,
+            "nurseryId": 3,
+            "price": 0
+        },
+        {
+            "id": 7,
+            "flowerId": 1,
+            "nurseryId": 4,
+            "price": 0
+        },
+        {
+            "id": 8,
+            "flowerId": 5,
+            "nurseryId": 4,
+            "price": 0
+        },
+        {
+            "id": 9,
+            "flowerId": 2,
+            "nurseryId": 5,
+            "price": 0
+        },
+        {
+            "id": 10,
+            "flowerId": 3,
+            "nurseryId": 5,
+            "price": 0
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Green Twist Flowers",
+            "priceMarkup": 0.10
+        },
+        {
+            "id": 1,
+            "name": "Gardenero",
+            "priceMarkup": 0.08
+        },
+        {
+            "id": 1,
+            "name": "Farmsy",
+            "priceMarkup": 0.05
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "nurseryFlowerId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryFlowerId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "nurseryFlowerId": 3,
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "nurseryFlowerId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "nurseryFlowerId": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 6,
+            "nurseryFlowerId": 6,
+            "distributorId": 2
+        },
+        {
+            "id": 7,
+            "nurseryFlowerId": 7,
+            "distributorId": 3
+        },
+        {
+            "id": 8,
+            "nurseryFlowerId": 8,
+            "distributorId": 3
+        },
+        {
+            "id": 9,
+            "nurseryFlowerId": 9,
+            "distributorId": 3
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Daisy's Bouquets",
+            "address": "100 Main St",
+            "priceMarkup": 0.10,
+            "distributorId": 1
+        },
+        {
+            "id": 1,
+            "name": "Lolland Family Florists",
+            "address": "101 Main St",
+            "priceMarkup": 0.15,
+            "distributorId": 2
+        },
+        {
+            "id": 1,
+            "name": "Nashville Flowers",
+            "address": "102 Main St",
+            "priceMarkup": 0.07,
+            "distributorId": 3
+        }
+    ]
+}
